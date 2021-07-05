@@ -17,7 +17,7 @@ module.exports = async (req,res) => {
     const users = await User.findAll(sqlOPtions);
 
     return res.json({
-        satus: 'succes',
+        status: 'success',
         data: users
     });
 }

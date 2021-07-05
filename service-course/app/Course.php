@@ -28,6 +28,6 @@ class Course extends Model
     }
     public function image()
     {
-        return $this->hasMany('App\ImageCourse')->oderBy('id','DESC');
+        return $this->hasMany('App\ImageCourse')->orderBy('id','DESC');
     }
 }
